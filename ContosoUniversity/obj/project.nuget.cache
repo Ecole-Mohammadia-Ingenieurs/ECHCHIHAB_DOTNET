@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "5sJypRJK0nxCuewx3OOOsNwy0tX/WjlUyBptpBmh2kuOcXWEZWs5d7P2iKpLKHtwEAP1l/b7C7TjuRfgyxeSkA==",
+  "dgSpecHash": "epBB908yylhGWmHVehno0WT7kwZ8NKLkCuPqV7QoHSENBpgEvwuLwCRy0qdz04rgQw/6CO+ZEgaeyOP94lgk9Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\stok-\\Documents\\GitHub\\ECHCHIHAB_DOTNET\\ContosoUniversity\\ContosoUniversity.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\stok-\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
     "C:\\Users\\stok-\\.nuget\\packages\\messagepack.annotations\\2.1.152\\messagepack.annotations.2.1.152.nupkg.sha512",
     "C:\\Users\\stok-\\.nuget\\packages\\messagepackanalyzer\\2.1.152\\messagepackanalyzer.2.1.152.nupkg.sha512",
+    "C:\\Users\\stok-\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.entityframeworkcore\\6.0.5\\microsoft.aspnetcore.diagnostics.entityframeworkcore.6.0.5.nupkg.sha512",
     "C:\\Users\\stok-\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\6.0.0\\microsoft.aspnetcore.razor.language.6.0.0.nupkg.sha512",
     "C:\\Users\\stok-\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\5.0.0\\microsoft.bcl.asyncinterfaces.5.0.0.nupkg.sha512",
     "C:\\Users\\stok-\\.nuget\\packages\\microsoft.build\\17.0.0\\microsoft.build.17.0.0.nupkg.sha512",
