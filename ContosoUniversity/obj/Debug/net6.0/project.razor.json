@@ -16303,8 +16303,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\stok-\\Documents\\GitHub\\ECHCHIHAB_DOTNET\\ContosoUniversity\\Pages\\Instructors\\Index.cshtml",
+      "TargetPath": "Pages\\Instructors\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\stok-\\Documents\\GitHub\\ECHCHIHAB_DOTNET\\ContosoUniversity\\Pages\\_ViewImports.cshtml",
       "TargetPath": "Pages\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\stok-\\Documents\\GitHub\\ECHCHIHAB_DOTNET\\ContosoUniversity\\Pages\\Instructors\\Details.cshtml",
+      "TargetPath": "Pages\\Instructors\\Details.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -16315,6 +16325,16 @@
     {
       "FilePath": "c:\\Users\\stok-\\Documents\\GitHub\\ECHCHIHAB_DOTNET\\ContosoUniversity\\Pages\\_ViewStart.cshtml",
       "TargetPath": "Pages\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\stok-\\Documents\\GitHub\\ECHCHIHAB_DOTNET\\ContosoUniversity\\Pages\\Instructors\\Create.cshtml",
+      "TargetPath": "Pages\\Instructors\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\stok-\\Documents\\GitHub\\ECHCHIHAB_DOTNET\\ContosoUniversity\\Pages\\Instructors\\Edit.cshtml",
+      "TargetPath": "Pages\\Instructors\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -16335,6 +16355,11 @@
     {
       "FilePath": "c:\\Users\\stok-\\Documents\\GitHub\\ECHCHIHAB_DOTNET\\ContosoUniversity\\Pages\\Students\\Edit.cshtml",
       "TargetPath": "Pages\\Students\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\stok-\\Documents\\GitHub\\ECHCHIHAB_DOTNET\\ContosoUniversity\\Pages\\Instructors\\Delete.cshtml",
+      "TargetPath": "Pages\\Instructors\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
