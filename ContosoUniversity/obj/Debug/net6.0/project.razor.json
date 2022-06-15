@@ -16298,6 +16298,11 @@
   "RootNamespace": "ContosoUniversity",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\stok-\\Documents\\GitHub\\ECHCHIHAB_DOTNET\\ContosoUniversity\\Pages\\Departments\\Edit.cshtml",
+      "TargetPath": "Pages\\Departments\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\stok-\\Documents\\GitHub\\ECHCHIHAB_DOTNET\\ContosoUniversity\\Pages\\Courses\\Delete.cshtml",
       "TargetPath": "Pages\\Courses\\Delete.cshtml",
       "FileKind": "mvc"
@@ -16310,6 +16315,16 @@
     {
       "FilePath": "c:\\Users\\stok-\\Documents\\GitHub\\ECHCHIHAB_DOTNET\\ContosoUniversity\\Pages\\_ViewImports.cshtml",
       "TargetPath": "Pages\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\stok-\\Documents\\GitHub\\ECHCHIHAB_DOTNET\\ContosoUniversity\\Pages\\Departments\\Details.cshtml",
+      "TargetPath": "Pages\\Departments\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\stok-\\Documents\\GitHub\\ECHCHIHAB_DOTNET\\ContosoUniversity\\Pages\\Departments\\Create.cshtml",
+      "TargetPath": "Pages\\Departments\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -16353,6 +16368,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\stok-\\Documents\\GitHub\\ECHCHIHAB_DOTNET\\ContosoUniversity\\Pages\\Departments\\Index.cshtml",
+      "TargetPath": "Pages\\Departments\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\stok-\\Documents\\GitHub\\ECHCHIHAB_DOTNET\\ContosoUniversity\\Pages\\Students\\Edit.cshtml",
       "TargetPath": "Pages\\Students\\Edit.cshtml",
       "FileKind": "mvc"
@@ -16380,6 +16400,11 @@
     {
       "FilePath": "c:\\Users\\stok-\\Documents\\GitHub\\ECHCHIHAB_DOTNET\\ContosoUniversity\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\stok-\\Documents\\GitHub\\ECHCHIHAB_DOTNET\\ContosoUniversity\\Pages\\Departments\\Delete.cshtml",
+      "TargetPath": "Pages\\Departments\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
