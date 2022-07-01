@@ -1,0 +1,48 @@
+@page
+@model ContosoUniversity.Pages.Stages.IndexModel
+
+@{
+    ViewData["Title"] = "Stages Page";
+}
+
+<h1>Stages Page</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Stage[0].TitreDeStage)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Stage[0].Instructor)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Stage[0].Student)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Stage) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.TitreDeStage)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Instructor.FirstMidName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Student.FirstMidName)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.StageID">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.StageID">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.StageID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

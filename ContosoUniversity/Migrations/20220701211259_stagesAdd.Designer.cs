@@ -3,6 +3,7 @@ using System;
 using ContosoUniversity.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ContosoUniversity.Migrations
 {
     [DbContext(typeof(SchoolContext))]
-    partial class SchoolContextModelSnapshot : ModelSnapshot
+    [Migration("20220701211259_stagesAdd")]
+    partial class stagesAdd
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "6.0.5");
@@ -132,31 +134,6 @@ namespace ContosoUniversity.Migrations
                     b.ToTable("OfficeAssignments");
                 });
 
-            modelBuilder.Entity("ContosoUniversity.Models.Soutenance", b =>
-                {
-                    b.Property<int>("SoutenanceID")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("INTEGER");
-
-                    b.Property<int>("InstructorID")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<int>("StageID")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<string>("TitreDeSoutenance")
-                        .HasMaxLength(50)
-                        .HasColumnType("TEXT");
-
-                    b.HasKey("SoutenanceID");
-
-                    b.HasIndex("InstructorID");
-
-                    b.HasIndex("StageID");
-
-                    b.ToTable("Soutenance");
-                });
-
             modelBuilder.Entity("ContosoUniversity.Models.Stage", b =>
                 {
                     b.Property<int>("StageID")
@@ -179,7 +156,7 @@ namespace ContosoUniversity.Migrations
 
                     b.HasIndex("StudentID");
 
-                    b.ToTable("Stage", (string)null);
+                    b.ToTable("Stage");
                 });
 
             modelBuilder.Entity("ContosoUniversity.Models.Student", b =>
@@ -270,25 +247,6 @@ namespace ContosoUniversity.Migrations
                         .IsRequired();
 
                     b.Navigation("Instructor");
-                });
-
-            modelBuilder.Entity("ContosoUniversity.Models.Soutenance", b =>
-                {
-                    b.HasOne("ContosoUniversity.Models.Instructor", "Turor")
-                        .WithMany()
-                        .HasForeignKey("InstructorID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("ContosoUniversity.Models.Stage", "stage")
-                        .WithMany()
-                        .HasForeignKey("StageID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Turor");
-
-                    b.Navigation("stage");
                 });
 
             modelBuilder.Entity("ContosoUniversity.Models.Stage", b =>
